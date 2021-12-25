@@ -8,7 +8,7 @@ def classify(num):
     return 'Setosa'
   elif num<1.5:
     return 'Versicolar'
-  else:
+  else:  
     return 'Virginica'
 def main():
   st.title("species classifier")
